@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "iast-calculation"
+version = "0.1.0"
+description = ""
+authors = ["ahettiarac <ahettiarac@wiley.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytz = "*"
+tzdata = "*"
+six="*"
+pyparsing="*"
+pillow="*"
+packaging="*"
+numpy="*"
+kiwisolver="*"
+fonttools="*"
+cycler="*"
+scipy="*"
+python-dateutil="*"
+contourpy="*"
+pandas="*"
+matplotlib="*"
+pyiast="*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
